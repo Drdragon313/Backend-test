@@ -5,8 +5,9 @@ const app = express();
 const employee_data = {
   employee: {
     name: "sonoo",
-    salary: 56000,
+    salary: 5000,
     married: true,
+    Age: 20,
   },
 };
 app.get("/", (req, res) => {
